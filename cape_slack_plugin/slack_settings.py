@@ -2,7 +2,6 @@ from sanic import Blueprint
 import os
 
 URL_BASE = '/slack'
-slack_endpoints = Blueprint('slack_endpoints')
 slack_auth_endpoints = Blueprint('slack_auth_endpoints')
 slack_event_endpoints = Blueprint('slack_event_endpoints')
 
