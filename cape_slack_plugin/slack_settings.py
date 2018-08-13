@@ -24,4 +24,3 @@ slack_client_secret = os.getenv("CAPE_SLACK_CLIENT_SECRET", "REPLACEME")
 slack_verification = os.getenv("CAPE_SLACK_VERIFICATION", "REPLACEME")
 slack_app_url = os.getenv("CAPE_SLACK_APP_URL", "REPLACEME")
 
-THIS_FOLDER = os.path.abspath(os.path.join(os.path.dirname(__file__)))
